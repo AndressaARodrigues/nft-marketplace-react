@@ -2,11 +2,10 @@ import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 
 import classes from './MainNavigation.module.css';
-import logoImage from '../assets/Storefront.png';
 import user from '../assets/User.png';
 import Button from '../UI/Button'; 
 import NavMenu from '../assets/nav menu.png';
-
+import Logo from '../UI/Logo';
 
 function MainNavigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,13 +16,7 @@ function MainNavigation() {
 
   return (
     <header className={classes.header}>
-      <NavLink
-              to="/"
-              className={classes.logo}
-              >
-          <img src={logoImage} alt="Logo" />
-          NFT Marketplace
-      </NavLink>
+      <Logo/>
       <button className={classes.menuButton} onClick={toggleMenu}>
         <img src={NavMenu} alt="Menu icone" />
       </button>

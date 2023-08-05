@@ -1,4 +1,5 @@
 import { React } from 'react-router-dom';
+import Footer from '../components/Footer/Footer';
 
 function Marketplace() {
   /*const navigate = useNavigate();
@@ -10,6 +11,7 @@ function Marketplace() {
   return (
     <>
       <h1>Marketplace</h1>
+      <Footer/>
     </>
   );
 }

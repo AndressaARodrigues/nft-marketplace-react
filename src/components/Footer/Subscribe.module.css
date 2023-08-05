@@ -1,0 +1,30 @@
+.subscribe{
+  margin-top: 5px;
+}
+
+.subscribeForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centraliza verticalmente os itens */
+  background-color: white; /* Remova a cor de fundo */
+  width: 420px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+.subscribe h2 {
+  margin: 0px; 
+}
+
+.subscribe input {
+  text-align: center;
+  border-radius: 20px;
+  border:none;
+  outline: none;
+}
+
+.subscribeButton {
+  Width: 179px;
+  Height: 60px;
+  transition: background-color 0.2s ease-in-out; /* Adicione uma transição suave */
+}

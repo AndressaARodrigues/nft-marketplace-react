@@ -9,19 +9,6 @@
   background-color: #2B2B2B;
 }
 
-.logo {
-  width: 245px;
-  height: 32px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: 'Space Mono', monospace;
-  color: white;
-  list-style: none;
-  font-size: 22px;
-  text-decoration: none;
-}
-
 .list {
   height: 60px;
   width: 607px;

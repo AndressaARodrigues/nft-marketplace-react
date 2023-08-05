@@ -1,0 +1,14 @@
+.logo {
+  width: 250px;
+  height: 32px;
+  display: flex;
+  flex-direction: row; /* Alinha verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  font-family: 'Space Mono', monospace;
+  color: white;
+  list-style: none;
+  font-size: 22px;
+  text-decoration: none;
+  gap: 10px;
+}
+
