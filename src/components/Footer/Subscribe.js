@@ -7,7 +7,7 @@ function Subscribe() {
     <>
       <div className={classes.subscribe}>
         <h2>Join our weekly digest</h2>
-        <p>Get exclusive promotions & updates <br/> straight to your inbox.</p>
+        <p>Get exclusive promotions & updates straight to your inbox.</p>
         <form className={classes.subscribeForm}>
           <input type="email" placeholder="Enter your email here" />
           <Button className={classes.subscribeButton} type="submit">Subscribe</Button>

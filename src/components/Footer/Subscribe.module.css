@@ -1,7 +1,3 @@
-.subscribe{
-  margin-top: 5px;
-}
-
 .subscribeForm {
   display: flex;
   justify-content: space-between;
@@ -14,6 +10,13 @@
 
 .subscribe h2 {
   margin: 0px; 
+}
+
+.subscribe p{
+  width: 330px;
+  @media (max-width: 1280px) {
+    width: 690px;
+  }
 }
 
 .subscribe input {

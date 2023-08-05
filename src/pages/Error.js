@@ -1,6 +1,5 @@
-
 import Footer from '../components/Footer/Footer';
-import MainNavigation from '../components/MainNavigation';
+import MainNavigation from '../components/Menu/MainNavigation';
 
 function ErrorPage() {
   return (

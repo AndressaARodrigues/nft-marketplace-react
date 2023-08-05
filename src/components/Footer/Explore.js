@@ -1,7 +1,6 @@
 import classes from './Explore.module.css'
 
 function Explore() {
-
   return (
     <>
         <div className={classes.explore}>

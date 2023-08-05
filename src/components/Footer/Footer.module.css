@@ -4,15 +4,15 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    Height: 334px;
+    height: 334px;
 
 }
 
 .footer{
     display: flex;
     justify-content: space-between;
-    Width: 1200px;
-    Height: 200px;
+    width: 1200px;
+    height: 200px;
 }
 
 h2{
@@ -37,7 +37,29 @@ p{
     color: #CCCCCC;
     font-family: 'Work Sans', sans-serif;
     font-size: 12px;
-    padding-top: 30px; /* Espaçamento acima da div de copyright */
+    padding-top: 30px; 
+    margin-top: 10px;
 }
 
+@media (max-width: 1280px) {
+    footer {
+      height: 703px;
+    }
 
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 690px;
+        height: 541px;
+        padding-top: 40px;
+        gap: 20px;
+    }
+  
+    .copyright {
+      width: 690px;
+      height: 63px;
+      font-size: 12px;
+      margin-top: 50px;
+    }
+  }

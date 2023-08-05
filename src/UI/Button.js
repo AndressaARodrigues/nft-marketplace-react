@@ -1,8 +1,6 @@
-// ui/Button.js
-
 import React from 'react';
 import PropTypes from 'prop-types';
-import classes from './Button.module.css'; // Certifique-se de criar este arquivo CSS
+import classes from './Button.module.css'; 
 
 const Button = ({ children, onClick, className, style }) => {
   return (

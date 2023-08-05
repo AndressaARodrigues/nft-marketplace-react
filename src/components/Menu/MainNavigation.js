@@ -2,10 +2,10 @@ import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 
 import classes from './MainNavigation.module.css';
-import user from '../assets/User.png';
-import Button from '../UI/Button'; 
-import NavMenu from '../assets/nav menu.png';
-import Logo from '../UI/Logo';
+import user from '../../assets/User.png';
+import Button from '../../UI/Button'; 
+import NavMenu from '../../assets/nav menu.png';
+import Logo from '../../UI/Logo';
 
 function MainNavigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
