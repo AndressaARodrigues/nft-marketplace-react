@@ -12,10 +12,12 @@ function ConnectWallet() {
           <section>
             <img src={imagePlaceholder} alt="Imagem fundo" className={classes.image} />
           </section>
-          <section className={classes.content}>
+          <section className={classes.content}>  
+            <div className={classes.formContainer}>
               <h2>Create Account</h2>
               <p>Welcome! Enter your details and start creating, collecting, and selling NFTs.</p>
               <Forms />
+            </div>
           </section>
       </Container>
       <Footer />

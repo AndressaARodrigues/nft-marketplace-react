@@ -7,7 +7,7 @@
 }
 
 .formsContainer input{
-    width: 330px;
+    width: 305px;
     height: 46px;
     border-radius: 20px;
     outline: none;
@@ -20,4 +20,7 @@
     height:46px;
     font-size: 16px;
     margin-top: 10px;
+    width: 320px;
   }
+
+
