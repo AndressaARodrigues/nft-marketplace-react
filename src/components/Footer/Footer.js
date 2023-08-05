@@ -6,6 +6,7 @@ import Subscribe from './Subscribe';
 
 function Footer() {
   return (
+    <>
     <footer>
       <div className={classes.footer}>
         <NftMarketplaceInfo/>
@@ -16,6 +17,7 @@ function Footer() {
         Ⓒ NFT Market. Use this template freely.
       </div>
     </footer>
+    </>
   );
 }
 

@@ -5,7 +5,6 @@ footer{
     justify-content: center;
     align-items: center;
     height: 334px;
-
 }
 
 .footer{
@@ -62,4 +61,21 @@ p{
       font-size: 12px;
       margin-top: 50px;
     }
-  }
+}
+
+@media (max-width: 833px) {
+    footer{
+        height: 776px;
+    }
+
+    .footer{
+        width: 315px;
+        height: 776px;
+    }
+
+    .copyright {
+        width: 315px;
+    }
+}
+
+
