@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+<h1 align="center">
+     💎<a href="#" alt="site do FitMe"> NFT Marketplace </a>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+     Este é o repósitorio do Second React Challenge Compass - NFT Marketplace.
+</h3>
+ 
+<h4 align="center">
+	🚧  Estou refazendo o desafio - Em Andamento 🚀 🚧
+</h4>
 
-## Available Scripts
+Tabela de conteúdos
+=================
+<!--ts-->
+   * [Sobre o projeto](#-sobre-o-projeto)
+   * [Funcionalidades](#-funcionalidades)
+   * [Layout](#-layout)
+   * [Pré-requisitos](#pré-requisitos)
+   * [Como executar o projeto](#-como-executar-o-projeto)
+   * [Tecnologias](#-tecnologias)
+   * [Como contribuir no projeto](#-como-contribuir-no-projeto)
+   * [Correções](#-correções)
+<!--te-->
 
-In the project directory, you can run:
 
-### `npm start`
+## 💻 Sobre o projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+NFT Marketplace - é uma plataforma inovadora que permite aos artistas e colecionadores explorar e comercializar NFTs únicos e exclusivos. O site é composto por sete páginas principais, cada uma com funcionalidades específicas: página Inicial, página para criar uma conta, página para conectar a carteira, página do artista, página dos nfts e páginas dos rankings.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Projeto desenvolvido durante a trilha de aprendizado **Front-end Journey (React) - AWS Cloud Context** oferecida pela **Compass Uol**.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Funcionalidades
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎨 Layout
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O layout da aplicação está disponível no Figma:
 
-### `npm run eject`
+<a href="https://www.figma.com/file/JjJxUIUxmH5u9i9iwnGugB/NFT-Marketplace-Template-(Community)?type=design&node-id=1996-14027&mode=design&t=Pew5JsYP5FzBgfOv-0">
+  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
+</a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📝 Pré-requisitos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Antes de começar, você vai precisar ter instalado em sua máquina: [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🚀 Como executar o projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Para utilizar o NFT Marketplace, siga os seguintes passos:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Certifique-se de ter o Node.js instalado em sua máquina.
 
-### Code Splitting
+2. Clone este repositório em sua máquina local usando o seguinte comando no terminal: `git clone https://github.com/AndressaARodrigues/nft-marketplace-react.git`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Acesse o diretório do projeto: `cd nft-marketplace-react`
 
-### Analyzing the Bundle Size
+4. Faça a instalação de:
+- React Router DOM - `npm install react-router-dom`
+- `npm install`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. Inicie o servidor de desenvolvimento: `npm start`
 
-### Making a Progressive Web App
+6. O aplicativo estará disponível no [http://localhost:3000](http://localhost:3000)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🛠 Tecnologias
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+As seguintes ferramentas foram usadas na construção do projeto:
 
-### Deployment
+#### ([React](https://reactjs.org/)  +  [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript))
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+-   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+-   **[Create React App](https://github.com/facebook/create-react-app)**
 
-### `npm run build` fails to minify
+> Veja o arquivo  [package.json](https://github.com/AndressaARodrigues/nft-marketplace-react/blob/master/package.json)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+#### **Utilitários**
+
+-   Protótipo:  **[Figma]**  →  **[Protótipo (NFT-Marketplace)](https://www.figma.com/file/JjJxUIUxmH5u9i9iwnGugB/NFT-Marketplace-Template-(Community)?type=design&node-id=1996-14027&mode=design&t=Pew5JsYP5FzBgfOv-0)**
+-   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  
+-   Ícones:  **[Font Awesome](https://fontawesome.com/)**
+-   Fontes:  **[Work Sans](https://fonts.google.com/specimen/Poppins?query=poppins)**, **[Space Mono](https://fonts.google.com/specimen/Inter?query=inter)**
+
+---
+
+## 💪 Como contribuir no projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
+
